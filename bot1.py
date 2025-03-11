@@ -15,7 +15,7 @@ from telegram.ext import (
 
 # Bot configuration
 BOT_TOKEN = "7563387302:AAFqlJRb1i2WOeKdru3g2Hk_1jEwAphmhH0"
-ADMIN_ID = 6773787379
+ADMIN_ID = 7590004052
 CHANNEL_VIDEO_ID = -1002413444468      # For merged native videos
 CHANNEL_DOCUMENT_ID = -1002439803455   # For video documents sent immediately
 
