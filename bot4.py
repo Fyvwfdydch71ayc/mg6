@@ -14,9 +14,9 @@ from telegram.ext import (
 )
 
 # Bot configuration
-BOT_TOKEN = "7665641802:AAGNULkJrUQMG56erXkPQ5pNNMZB3yKF4ec"
+BOT_TOKEN = "8132999536:AAFbrZXSnqEAZ2tMSUq5MzRAxNtRJ5ocXiE"
 ADMIN_ID = 7590004052
-CHANNEL_VIDEO_ID = -1002606802208      # For merged native videos/photos
+CHANNEL_VIDEO_ID = -1002661508371      # For merged native videos/photos
 CHANNEL_DOCUMENT_ID = -1002371965381   # For video documents sent immediately
 
 # MongoDB configuration
@@ -24,7 +24,7 @@ MONGO_URL = ("mongodb+srv://kunalrepowala9:YSz5yjMYV0SaPwtU@cluster0.gxm19.mongo
              "?retryWrites=true&w=majority&appName=Cluster0")
 mongo_client = AsyncIOMotorClient(MONGO_URL)
 db = mongo_client["Cluster0"]
-processed_collection = db["processed_media_bot1"]
+processed_collection = db["processed_media_bot2"]
 
 # Global storage and counters
 album_storage = {}         # Stores native photos/videos for merging per chat
